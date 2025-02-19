@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   key: const Key('Refresh')),
             ],
           ),
-          Expanded(
+          const Expanded(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[W1(), W2(), W3()],

@@ -15,9 +15,9 @@ class W1 extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(10),
             color: Theme.of(context).colorScheme.inversePrimary,
-            child: Text(
+            child: const Text(
               '0',
-              key: const Key('W1Value'),
+              key: Key('W1Value'),
             ),
           ),
           Container(
