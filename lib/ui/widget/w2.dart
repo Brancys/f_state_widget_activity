@@ -5,7 +5,7 @@ class W2 extends StatelessWidget {
   final double value;
   @override
   Widget build(BuildContext context) {
-    if (value % 1 <= .4) {
+    if (value % 1 <= .4 && value >= 0) {
       return Container(
         key: const Key('W2'),
         width: 200,
